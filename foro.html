@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Foro</title>
 </head>
 <body>
@@ -16,15 +17,48 @@
         </ul>
     </header>
     <main>
+        <input type="text" placeholder="Busuqeda...">
         <section id="foro">
             <h3>Categorias principales foro</h3>
-            <section id="displayCategorias">Categorias foro</section>
+            <section id="displayCategorias">
+                <article class="categoriaForo">Categoría Foro</article>
+                <article class="categoriaForo">Categoría Foro</article>
+                <article class="categoriaForo">Categoría Foro</article>
+                <article class="categoriaForo">Categoría Foro</article>
+            </section>
          </section>
-         <input type="text" placeholder="Busuqeda...">
+         
          <section id="postReciente">
              <h3>Post Recientes</h3>
-             <section id="displayTituloHilo">Titulos hilo</section>
+             <section id="displayTituloHilo">
+                 <article class="hilo">Hilo Foro</article>
+                 <article class="hilo">Hilo Foro</article>
+                 <article class="hilo">Hilo Foro</article>
+                 <article class="hilo">Hilo Foro</article>
+             </section>
         </section>
+        <nav>
+            <a href="" class="paginacionForo">1</a>
+            <a href="" class="paginacionForo">2</a>
+            <a href="" class="paginacionForo">3</a>
+            <a href="" class="paginacionForo">...</a>
+        </nav>
+        <nav aria-label="historial" class="breadCrumbForo">
+            <ol>
+                <li>
+                    <a href="../../">Index</a>
+                </li>
+                <li>
+                    <a href="../../#foro">Foro</a>
+                </li>
+                <li>
+                    <a href="../../#intercambios">Intercambios</a>
+                </li>
+                <li>
+                    <a href="./breadcrumb.html" aria-current="page">Breadcrumb</a>
+                </li>
+            </ol>
+        </nav>
     </main>
     <footer>
         <a href="" class="linkFooter">Política Privacidad</a>
