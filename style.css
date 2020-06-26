@@ -1,3 +1,4 @@
+                                        /*************** delete default browser style ***************/
 *{
     margin: 0;
     padding: 0;
@@ -8,50 +9,14 @@
     background: transparent;
     vertical-align: baseline;
 }
-
+                                        /*************** variables ***************/
 :root {
-    /* paleta de colores */
-    --principalClaro: #02C3BD;
-    --principalDos: #00B9AE;
-    --principalTres: #009F93;
-    --principalCuatro: #037171;
-    --principalCinco: #03312E;
-    --secundarioClaro: #FBD7B1;
-    --secundarioOscuro: #E7815F;
+                                        /* paleta de colores */
+    --principalLight: #02C3BD;
+    --principalTwo: #00B9AE;
+    --principalThree: #009F93;
+    --principalFour: #037171;
+    --principalFive: #03312E;
+    --secundaryLight: #FBD7B1;
+    --secundaryDark: #E7815F;
 }
-            /* Título/Principal */
-@font-feature-values {
-            font-family: Pacifico;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 72px;
-}
-            /* Título secundario */
-@font-feature-values {
-            font-family: Pacifico;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 48px;
-}
-            /* Texto/Pequeño */
-@font-feature-values {
-            font-family: Corbel;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 18px;
-}
-            /* Texto Grande */
-@font-feature-values {
-            font-family: Corbel;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 24px;
-}
-            /* Subtítulo */
-@font-feature-values {
-            font-family: Corbel;
-            font-style: normal;
-            font-weight: bold;
-            font-size: 36px;
-}
-
