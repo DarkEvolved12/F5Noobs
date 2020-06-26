@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    background: transparent;
+    vertical-align: baseline;
+}
+
+:root {
+    /* paleta de colores */
+    --principalClaro: #02C3BD;
+    --principalDos: #00B9AE;
+    --principalTres: #009F93;
+    --principalCuatro: #037171;
+    --principalCinco: #03312E;
+    --secundarioClaro: #FBD7B1;
+    --secundarioOscuro: #E7815F;
+}
+            /* Título/Principal */
+@font-feature-values {
+            font-family: Pacifico;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 72px;
+}
+            /* Título secundario */
+@font-feature-values {
+            font-family: Pacifico;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 48px;
+}
+            /* Texto/Pequeño */
+@font-feature-values {
+            font-family: Corbel;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+}
+            /* Texto Grande */
+@font-feature-values {
+            font-family: Corbel;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+}
+            /* Subtítulo */
+@font-feature-values {
+            font-family: Corbel;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+}
+
