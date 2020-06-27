@@ -17,6 +17,31 @@
     --principalThree: #009F93;
     --principalFour: #037171;
     --principalFive: #03312E;
-    --secundaryLight: #FBD7B1;
-    --secundaryDark: #E7815F;
+    --secondaryLight: #FBD7B1;
+    --secondaryDark: #E7815F;
+}
+                                        /*************** breadcrumb ***************/
+nav.breadCrumb {
+    padding: 0.8em 1em;
+    border: 1px solid var(--secondaryDark);
+    border-radius: 2em;
+    background: var(--secondaryLight);
+}
+
+nav.breadCrumb li {
+    display: inline;
+}
+
+nav.breadCrumb li + li::before {
+    display: inline-block;
+    margin: 0 0.30em;
+    transform: rotate(13deg);
+    border-right: 0.1em solid var(--secondaryDark);
+    height: 0.8em;
+    content: '';
+}
+
+nav.breadCrumb [aria-current="page"] {
+    color: #000;
+    font-weight: 700;
 }

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Hilo Foro</title>
 </head>
+
 <body>
     <header>
         <ul id="barraNavegacion">
@@ -17,6 +19,13 @@
         </ul>
     </header>
     <main>
+        <nav aria-label="breadcrumb" class="breadCrumb">
+            <ol>
+                <li><a href="foro.html">Foro</a></li>
+                <li><a href="./foro_categoria.html">Categoría</a></li>
+                <li><a href="././foro_hilo.html" aria-current="page">Hilo</a></li>
+            </ol>
+        </nav>
         <input type="text" placeholder="Búsqueda...">
         <section id="foro">
             <section id="subtituloHilo">
@@ -61,14 +70,6 @@
             <a href="" class="paginacionForo">3</a>
             <a href="" class="paginacionForo">...</a>
         </nav>
-        <nav aria-label="historial" class="breadCrumbForo">
-            <ol>
-                <li><a href="../../">Index</a></li>
-                <li><a href="../../#foro">Foro</a></li>
-                <li><a href="../../#intercambios">Intercambios</a></li>
-                <li><a href="./breadcrumb.html" aria-current="page">Breadcrumb</a></li>
-            </ol>
-        </nav>
     </main>
     <footer>
         <a href="" class="linkFooter">Política Privacidad</a>
@@ -77,4 +78,5 @@
         <a href="" class="linkFooter">Cookies</a>
     </footer>
 </body>
+
 </html>
