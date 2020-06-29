@@ -50,7 +50,7 @@
 
 .textoGrande{
     font-family: corbel;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 .textoPequeño{
@@ -95,4 +95,38 @@ nav.breadCrumb [aria-current="page"] {
     border: solid 1px black;
     height: 25px;
     text-indent: 10px;
+}
+
+                                        /**************barraNavigacion ***************/
+#barraNavegacion{
+    height: 50px;
+    width: 100%;
+    background-color:var(--principalFive);
+    display: flex;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.botonNavegacion{
+    background-color:var(--principalFive);
+    height: 100%;
+    width: 175px; 
+    display: flex; 
+    color:white;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-start;
+    align-self: stretch;
+}
+
+.botonNavegacion:hover{
+    background-color: var(--principalThree);
+}
+
+#barraNavegacion > li{
+    display: flex;
+}
+
+#barraNavegacion > li:nth-child(4) {
+    margin-left: auto;
 }
