@@ -20,6 +20,49 @@
     --secondaryLight: #FBD7B1;
     --secondaryDark: #E7815F;
 }
+
+                                        /*************** clases generales ***************/
+
+.bordeRedondeado{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: pacifico;
+    src: url(./fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: corbel;
+    src: url(./fonts/CORBEL.TTF);
+}
+
+.tituloPrincipal{
+    font-family: pacifico;
+    font-size: 50px;
+}
+
+.tituloSecundario{
+    font-family: pacifico;
+    font-size: 40px;
+}
+
+.textoGrande{
+    font-family: corbel;
+    font-size: 24px;
+}
+
+.textoPequeño{
+    font-family: corbel;
+    font-size: 18px;
+}
+
+.subtitulo{
+    font-family: corbel;
+    font-size: 36px;
+}
+
                                         /*************** breadcrumb ***************/
 nav.breadCrumb {
     padding: 0.8em 1em;
@@ -44,4 +87,12 @@ nav.breadCrumb li + li::before {
 nav.breadCrumb [aria-current="page"] {
     color: #000;
     font-weight: 700;
+}
+
+                                        /*************** barra busqueda ***************/
+#barraBusqueda{
+    display: block;
+    border: solid 1px black;
+    height: 25px;
+    text-indent: 10px;
 }
