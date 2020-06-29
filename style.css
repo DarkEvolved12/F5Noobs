@@ -20,6 +20,49 @@
     --secondaryLight: #FBD7B1;
     --secondaryDark: #E7815F;
 }
+
+                                        /*************** clases generales ***************/
+
+.bordeRedondeado{
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: pacifico;
+    src: url(./fonts/Pacifico-Regular.ttf);
+}
+
+@font-face {
+    font-family: corbel;
+    src: url(./fonts/CORBEL.TTF);
+}
+
+.tituloPrincipal{
+    font-family: pacifico;
+    font-size: 50px;
+}
+
+.tituloSecundario{
+    font-family: pacifico;
+    font-size: 40px;
+}
+
+.textoGrande{
+    font-family: corbel;
+    font-size: 18px;
+}
+
+.textoPequeño{
+    font-family: corbel;
+    font-size: 18px;
+}
+
+.subtitulo{
+    font-family: corbel;
+    font-size: 36px;
+}
+
                                         /*************** breadcrumb ***************/
 nav.breadCrumb {
     padding: 0.8em 1em;
@@ -62,3 +105,45 @@ input { grid-area: input; }
 main { grid-area: main; }
 aside { grid-area: aside; }
 footer { grid-area: footer; }
+
+                                        /*************** barra busqueda ***************/
+#barraBusqueda{
+    display: block;
+    border: solid 1px black;
+    height: 25px;
+    text-indent: 10px;
+}
+
+                                        /**************barraNavigacion ***************/
+#barraNavegacion{
+    height: 50px;
+    width: 100%;
+    background-color:var(--principalFive);
+    display: flex;
+    align-self: stretch;
+    justify-self: stretch;
+}
+
+.botonNavegacion{
+    background-color:var(--principalFive);
+    height: 100%;
+    width: 175px; 
+    display: flex; 
+    color:white;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-start;
+    align-self: stretch;
+}
+
+.botonNavegacion:hover{
+    background-color: var(--principalThree);
+}
+
+#barraNavegacion > li{
+    display: flex;
+}
+
+#barraNavegacion > li:nth-child(4) {
+    margin-left: auto;
+}
