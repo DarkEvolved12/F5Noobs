@@ -6,41 +6,72 @@
     <link rel="stylesheet" href="style.css">
     <title>Intercambios</title>
 </head>
-<body>
+<body class="gridDisplay">
     <header>
-        <ul id="barraNavegacion">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="foro.html">FORO</a></li>
-            <li><a href="intercambios.html">INTERCAMBIOS</a></li>
-            <li><a href="perfil.html">NOMBRE USUARIO</a></li>
-            <li><a href="login.html">LOGIN/REGISTRO</a></li>
-        </ul>
+        <nav>
+            <ul id="barraNavegacion">
+                <li><a class="botonNavegacion textoGrande" href="index.html">HOME</a></li>
+                <li><a class="botonNavegacion textoGrande" href="foro.html">FORO</a></li>
+                <li><a class="botonNavegacion textoGrande" href="intercambios.html">INTERCAMBIOS</a></li>
+                <li><a class="botonNavegacion textoGrande" href="perfil.html">NOMBRE USUARIO</a></li>
+                <li><a class="botonNavegacion textoGrande" href="login.html">LOGIN/REGISTRO</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section id="intercambios">
-            <h3>Productos en oferta</h3>
-            <section id="displayProductos">Productos ofrecidos, vista grid</section>
+        <section class="intercambiosDisponibles"> 
+            <article class="itemIntercambio">
+                <img src="tabla surf.jpg" alt="">
+            </article>
+            <article class="itemIntercambio">
+                <img src="tabla surf.jpg" alt="">
+            </article>
+            <article class="itemIntercambio">
+                <img src="tabla surf.jpg" alt="">
+            </article>
+            <article class="itemIntercambio">
+                <img src="tabla surf.jpg" alt="">
+            </article>
+            <article class="itemIntercambio">
+                <img src="tabla surf.jpg" alt="">
+            </article>
+            <article class="itemIntercambio">
+                <img src="tabla surf.jpg" alt="">
+            </article>
+            <article class="itemIntercambio">
+                <img src="tabla surf.jpg" alt="">
+            </article>
+            <article class="itemIntercambio">
+                <img src="tabla surf.jpg" alt="">
+            </article>
+            <article class="itemIntercambio">
+                <img src="tabla surf.jpg" alt="">
+            </article>
         </section>
-        <input id="barraBusqueda" class="bordeRedondeado textoPequeño" type="text" placeholder="Búsqueda...">
-        <ul id="cajaIntercambios">
+    </main>
+    <input type="text" placeholder="Búsqueda..." id="barraBusqueda" class="bordeRedondeado textoPequeño">
+    <aside>
+        
+        <ul id="cajaIntercambiosRecientes">
+
             <h3>Últimos intercambios</h3>
-                <article class="itemIntercambio">
+                <article class="itemIntercambioReciente">
                     <img src="tabla surf.jpg" alt="producto 1">
                     <span>---></span>
                     <img src="tabla surf.jpg" alt="producto 2">
                 </article>
-                <article class="itemIntercambio">
+                <article class="itemIntercambioReciente">
                     <img src="tabla surf.jpg" alt="producto 1">
                     <span>---></span>
                     <img src="tabla surf.jpg" alt="producto 2">
                 </article>
-                <article class="itemIntercambio">
+                <article class="itemIntercambioReciente">
                     <img src="tabla surf.jpg" alt="producto 1">
                     <span>---></span>
                     <img src="tabla surf.jpg" alt="producto 2">
                 </article>
         </ul>
-    </main>
+    </aside>
     <footer>
         <a href="" class="linkFooter">Política Privacidad</a>
         <a href="" class="linkFooter">Redes Sociales</a>
