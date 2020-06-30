@@ -19,6 +19,7 @@
     --principalFive: #03312E;
     --secondaryLight: #FBD7B1;
     --secondaryDark: #E7815F;
+    --secondaryDarker: #500101;
 }
 
                                         /*************** clases generales ***************/
@@ -160,4 +161,47 @@ body {
 
 #barraNavegacion > li:nth-child(4) {
     margin-left: auto;
+}
+
+                                        /************** messenger ***************/
+
+#messenger{
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    overflow: hidden;
+    margin-right: 0;
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.messengerBoton{
+    background-color: var(--secondaryDarker);
+    height: 60px;
+    width: 300px;
+    color: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px var(--secondaryDark);
+}
+
+.messengerBotones{
+    display: flex;
+    flex-direction: row;
+}
+
+#messengerMensaje{
+    display: flex;
+    background-color: var(--secondaryLight);
+    color: white;
+    border: solid 1px var(--secondaryDark);
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#messengerMensaje > span{
+    display: flex;
 }
