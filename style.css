@@ -62,6 +62,22 @@
     font-family: corbel;
     font-size: 36px;
 }
+
+h1{
+    font-family: pacifico;
+    font-size: 50px;
+}
+
+h2{
+    font-family: pacifico;
+    font-size: 40px;
+}
+
+h3{
+    font-family: corbel;
+    font-size: 36px;
+}
+
                                         /*************** breadcrumb ***************/
 nav.breadCrumb {
     padding: 0.8em 1em;
