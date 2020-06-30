@@ -144,22 +144,45 @@ nav.breadCrumb [aria-current="page"] {
 #bodyPerfil{
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 50px 425px 425px 30px;
+    grid-template-rows: 50px 50% 50% 30px;
 }
 
 #mainPerfil{
     grid-column: 1 / 3;
-    grid-row: 1 / 4;
+    grid-row: 2 / 4;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50% 50%;
 }
 
 #seccionMessenger{
     grid-column: 2 / 3;
-    grid-row: 2 / 4;
+    grid-row: 1 / 3;
+    justify-items: center;;
 }
 
 #headerPerfil {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
+}
+
+#datosPerfilUsuario{
+    display: flex;
+    justify-content: space-around;
+}
+
+#picturePerfilUsuario{
+    display: flex;
+    flex-direction: column;
+}
+
+#fotoPerfilUsuario{
+    width: 100px;
+    height: 100px;
+}
+
+#valoracionPerfilUsuario{
+    width: 100px;
 }
                                         /*************** footer ***************/
 footer {
