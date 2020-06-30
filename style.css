@@ -140,6 +140,27 @@ nav.breadCrumb [aria-current="page"] {
     grid-template-columns: 45% 10% 45%;
     grid-template-rows: repeat( 3, auto);
 }
+                                        /*************** pagina de Perfil ***************/
+#bodyPerfil{
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50px 425px 425px 30px;
+}
+
+#mainPerfil{
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+}
+
+#seccionMessenger{
+    grid-column: 2 / 3;
+    grid-row: 2 / 4;
+}
+
+#headerPerfil {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
                                         /*************** footer ***************/
 footer {
     grid-column: 1 / 3;
