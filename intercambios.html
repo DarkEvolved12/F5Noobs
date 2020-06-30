@@ -6,8 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <title>Intercambios</title>
 </head>
-<body class="gridDisplay">
-    <header>
+<body class="bodyIntercambios">
+    <header class="headerIntercambios">
         <nav>
             <ul id="barraNavegacion">
                 <li><a class="botonNavegacion textoGrande" href="index.html">HOME</a></li>
@@ -18,7 +18,9 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <h3>IntercambiosDisponibles</h3>
+    <input type="text" placeholder="Búsqueda..." id="barraBusqueda" class="bordeRedondeado textoPequeño">
+    <main class="mainIntercambios">
         <section class="intercambiosDisponibles"> 
             <article class="itemIntercambio">
                 <img src="tabla surf.jpg" alt="">
@@ -49,11 +51,8 @@
             </article>
         </section>
     </main>
-    <input type="text" placeholder="Búsqueda..." id="barraBusqueda" class="bordeRedondeado textoPequeño">
-    <aside>
-        
-        <ul id="cajaIntercambiosRecientes">
-
+    <aside class="asideintercambios">
+        <ul>
             <h3>Últimos intercambios</h3>
                 <article class="itemIntercambioReciente">
                     <img src="tabla surf.jpg" alt="producto 1">
@@ -72,7 +71,7 @@
                 </article>
         </ul>
     </aside>
-    <footer>
+    <footer class="barraNavegacion">
         <a href="" class="linkFooter">Política Privacidad</a>
         <a href="" class="linkFooter">Redes Sociales</a>
         <a href="" class="linkFooter">Contacto</a>
