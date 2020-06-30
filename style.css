@@ -20,6 +20,7 @@
     --secondaryLight: #FBD7B1;
     --secondaryDark: #E7815F;
     --secondaryDarker: #500101;
+    --textcolor: #FFFFFC;
 }
 
                                         /*************** clases generales ***************/
@@ -108,18 +109,43 @@ nav.breadCrumb [aria-current="page"] {
 body {
     display: grid;
     grid-template-columns: 70% 30%;
-    grid-template-rows: 50px 50px 400px 30px;
+    grid-template-rows: 50px 50px 800px 30px;
 }
 .headerIntercambios {
     grid-column: 1 / 3;
+    grid-row: 1 / 2;
 }
 #h3 {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
+    align-content: center;
+    justify-items: start;
+    align-items: center;
 }
 #barraBusqueda {
     grid-column: 2 / 3;
-    grid-row: 2 / 3;
+    grid-row: 2 / 3; 
+}
+.mainIntercambios {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.intercambiosDisponibles {
+    display: grid;
+    grid-template-columns: 34% 33% 33%;
+    grid-template-rows: 34% 33% 33%;
+    align-items: center;    
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
+.asideIntercambios {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+.barraNavegacion {
+    grid-column: 1 / 3;
+    grid-row: 4 / 5;
 }
                                         /*************** barra busqueda ***************/
 #barraBusqueda{
@@ -179,7 +205,7 @@ body {
 .messengerBoton{
     background-color: var(--secondaryDarker);
     height: 60px;
-    width: 300px;
+    width: 50%;
     color: white;
     display:flex;
     justify-content: center;
@@ -192,14 +218,22 @@ body {
     flex-direction: row;
 }
 
-#messengerMensaje{
+#messengerMensajes{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.messengerMensaje{
     display: flex;
     background-color: var(--secondaryLight);
-    color: white;
+    color: var(--textcolor);
     border: solid 1px var(--secondaryDark);
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    height: 60px;
 }
 
 #messengerMensaje > span{
