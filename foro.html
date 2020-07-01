@@ -8,8 +8,8 @@
     <title>Foro</title>
 </head>
 
-<body>
-    <header>
+<body id="bodyForo">
+    <header id="headerForo">
         <nav>
             <ul id="barraNavegacion">
                 <li><a class="botonNavegacion textoGrande" href="index.html">HOME</a></li>
@@ -20,34 +20,32 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <input type="text" placeholder="Búsqueda...">
-        <section id="foro">
-            <h3>Categorias principales foro</h3>
-            <section id="displayCategorias">
-                <a href="foro_categoria.html">
-                    <article class="categoriaForo">Categoría Foro</article>
-                </a>
-                <a href="foro_categoria.html">
-                    <article class="categoriaForo">Categoría Foro</article>
-                </a>
-                <a href="foro_categoria.html">
-                    <article class="categoriaForo">Categoría Foro</article>
-                </a>
-                <a href="foro_categoria.html">
-                    <article class="categoriaForo">Categoría Foro</article>
-                </a>
-                <a href="foro_categoria.html">
-                    <article class="categoriaForo">Categoría Foro</article>
-                </a>
-                <a href="foro_categoria.html">
-                    <article class="categoriaForo">Categoría Foro</article>
-                </a>
-            </section>
+    <main id="mainForo">
+        <h3>Categorias principales foro</h3>
+        <input type="text" placeholder="Búsqueda..." id="barraBusqueda" class="bordeRedondeado textoPequeño">
+        <section id="displayCategorias">
+            <a href=" foro_categoria.html">
+                <article class="categoriaForo textoGrande bordeRedondeado">Categoría Foro</article>
+            </a>
+            <a href="foro_categoria.html">
+                <article class="categoriaForo textoGrande bordeRedondeado">Categoría Foro</article>
+            </a>
+            <a href="foro_categoria.html">
+                <article class="categoriaForo textoGrande bordeRedondeado">Categoría Foro</article>
+            </a>
+            <a href="foro_categoria.html">
+                <article class="categoriaForo textoGrande bordeRedondeado">Categoría Foro</article>
+            </a>
+            <a href="foro_categoria.html">
+                <article class="categoriaForo textoGrande bordeRedondeado">Categoría Foro</article>
+            </a>
+            <a href="foro_categoria.html">
+                <article class="categoriaForo textoGrande bordeRedondeado">Categoría Foro</article>
+            </a>
         </section>
         <section id="postsRecientes">
             <h3>Posts Recientes</h3>
-            <section id="displayPostsRecientes">
+            <section id="displayPostsRecientes" class="bordeRedondeado">
                 <a href="foro_hilo.html">
                     <article class="hiloForo">
                         <h4>Titulo Hilo</h4>
@@ -79,7 +77,7 @@
             <a href="" class="paginacionForo">...</a>
         </nav>
     </main>
-    <footer>
+    <footer id="footerForo">
         <nav>
             <ul id="footer">
                 <li> <a href="" class="botonFooter">Política Privacidad</a></li>
