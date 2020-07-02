@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <header>
+    <header id="headerForoHilo">
         <nav>
             <ul id="barraNavegacion">
                 <li><a class="botonNavegacion textoGrande" href="index.html">HOME</a></li>
@@ -20,7 +20,42 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="mainForoHilo">
+        <h3>Nombre Hilo</h3>
+        <input type="text" placeholder="Búsqueda..." id="barraBusqueda">
+        <section id="subtituloHilo">
+            <p>Info Hilo (fechas/respuestas)</p>
+        </section>
+        <section id="displayPosts" class="bordeRedondeado">
+            <article class="postForo textoPequeño">
+                <img src="./images/fotoPerfil.jpg" alt="Foto Perfil" class="fotoPerfil bordeRedondeado">
+                <p>Nombre Usuario</p>
+                <p>Info Post/Usuario</p>
+                <p>Cuerpo Mensaje</p>
+                <img src="./images/stars-24183_640.png" alt="Reputación del posteador" class="displayReputacion">
+            </article>
+            <article class="postForo textoPequeño">
+                <img src="./images/fotoPerfil.jpg" alt="Foto Perfil" class="fotoPerfil bordeRedondeado">
+                <p>Nombre Usuario</p>
+                <p>Info Post/Usuario</p>
+                <p>Cuerpo Mensaje</p>
+                <img src="./images/stars-24183_640.png" alt="Reputación del posteador" class="displayReputacion">
+            </article>
+            <article class="postForo textoPequeño">
+                <img src="./images/fotoPerfil.jpg" alt="Foto Perfil" class="fotoPerfil bordeRedondeado">
+                <p>Nombre Usuario</p>
+                <p>Info Post/Usuario</p>
+                <p>Cuerpo Mensaje</p>
+                <img src="./images/stars-24183_640.png" alt="Reputación del posteador" class="displayReputacion">
+            </article>
+            <article class="postForo textoPequeño">
+                <img src="./images/fotoPerfil.jpg" alt="Foto Perfil" class="fotoPerfil bordeRedondeado">
+                <p>Nombre Usuario</p>
+                <p>Info Post/Usuario</p>
+                <p>Cuerpo Mensaje</p>
+                <img src="./images/stars-24183_640.png" alt="Reputación del posteador" class="displayReputacion">
+            </article>
+        </section>
         <nav aria-label="breadcrumb" class="breadCrumb">
             <ol>
                 <li><a href="foro.html">Foro</a></li>
@@ -28,52 +63,15 @@
                 <li><a href="././foro_hilo.html" aria-current="page">Hilo</a></li>
             </ol>
         </nav>
-        <input type="text" placeholder="Búsqueda...">
-        <section id="foro">
-            <section id="subtituloHilo">
-                <h3>Nombre Hilo</h3>
-                <p>Info Hilo (fechas/respuestas)</p>
-            </section>
-            <section id="displayPosts">
-                <article class="postForo">
-                    <img src="" alt="Foto Perfil">
-                    <p>Nombre Usuario</p>
-                    <p>Cuerpo Mensaje</p>
-                    <p>Info Post/Usuario</p>
-                    <img src="" alt="Reputación del posteador" class="displayReputacion">
-                </article>
-                <article class="postForo">
-                    <img src="" alt="Foto Perfil">
-                    <p>Nombre Usuario</p>
-                    <p>Cuerpo Mensaje</p>
-                    <p>Info Post/Usuario</p>
-                    <img src="" alt="Reputación del posteador" class="displayReputacion">
-                </article>
-                <article class="postForo">
-                    <img src="" alt="Foto Perfil">
-                    <p>Nombre Usuario</p>
-                    <p>Cuerpo Mensaje</p>
-                    <p>Info Post/Usuario</p>
-                    <img src="" alt="Reputación del posteador" class="displayReputacion">
-                </article>
-                <article class="postForo">
-                    <img src="" alt="Foto Perfil">
-                    <p>Nombre Usuario</p>
-                    <p>Cuerpo Mensaje</p>
-                    <p>Info Post/Usuario</p>
-                    <img src="" alt="Reputación del posteador" class="displayReputacion">
-                </article>
-            </section>
-            <button id="responderHilo">Responder</button>
-        </section>
         <nav>
             <a href="" class="paginacionForo">1</a>
             <a href="" class="paginacionForo">2</a>
             <a href="" class="paginacionForo">3</a>
             <a href="" class="paginacionForo">...</a>
         </nav>
+        <button id="responderHilo">Responder</button>
     </main>
-    <footer>
+    <footer id="footerForoHilo">
         <nav>
             <ul id="footer">
                 <li> <a href="" class="botonFooter">Política Privacidad</a></li>

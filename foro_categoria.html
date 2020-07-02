@@ -8,8 +8,8 @@
     <title>Categorias Foro</title>
 </head>
 
-<body>
-    <header>
+<body id="bodyForoCategoria">
+    <header id="headerForoCategoria">
         <nav>
             <ul id="barraNavegacion">
                 <li><a class="botonNavegacion textoGrande" href="index.html">HOME</a></li>
@@ -20,57 +20,57 @@
             </ul>
         </nav>
     </header>
-    <main>
-        <nav aria-label="breadcrumb" class="breadCrumb">
-            <ol>
-                <li><a href="foro.html">Foro</a></li>
-                <li><a href="./foro_categoria.html" aria-current="page">Categoría</a></li>
-            </ol>
-        </nav>
-        <input type="text" placeholder="Búsqueda...">
-        <section id="foro">
-            <h3>Hilos Categorias</h3>
-            <section id="displayHilos">
+    <main id="mainForoCategoria">
+        <h3>Hilos Categoria</h3>
+        <section id="contenedorBarraBusqueda">
+            <input type="text" placeholder="Búsqueda..." id="barraBusqueda" class="bordeRedondeado">
+        </section>
+        <section id="displayHilos" class="bordeRedondeado">
                 <a href="foro_hilo.html">
-                    <article class="hiloForo">
+                    <article class="hiloForo textoPequeño">
                         <h4>Titulo Hilo</h4>
                         <p class="descripcionBreve">descripcionBreve</p>
                         <p class="infoUltimoMensaje">info último mensaje (usuario/fecha)</p>
                     </article>
                 </a>
                 <a href="foro_hilo.html">
-                    <article class="hiloForo">
+                    <article class="hiloForo textoPequeño">
                         <h4>Titulo Hilo</h4>
                         <p class="descripcionBreve">descripcionBreve</p>
                         <p class="infoUltimoMensaje">info último mensaje (usuario/fecha)</p>
                     </article>
                 </a>
                 <a href="foro_hilo.html">
-                    <article class="hiloForo">
+                    <article class="hiloForo textoPequeño">
                         <h4>Titulo Hilo</h4>
                         <p class="descripcionBreve">descripcionBreve</p>
                         <p class="infoUltimoMensaje">info último mensaje (usuario/fecha)</p>
                     </article>
                 </a>
                 <a href="foro_hilo.html">
-                    <article class="hiloForo">
+                    <article class="hiloForo textoPequeño">
                         <h4>Titulo Hilo</h4>
                         <p class="descripcionBreve">descripcionBreve</p>
                         <p class="infoUltimoMensaje">info último mensaje (usuario/fecha)</p>
                     </article>
                 </a>
 
-            </section>
-            <button id="nuevoHilo">Nuevo Hilo</button>
         </section>
-        <nav>
+        <nav aria-label="breadcrumb" class="breadCrumb bordeRedondeado textoPequeño" id="breadCrumbForoCategoria">
+            <ol>
+                <li><a href="foro.html">Foro</a></li>
+                <li><a href="./foro_categoria.html" aria-current="page">Categoría</a></li>
+            </ol>
+        </nav>
+        <nav class="textoGrande">
             <a href="" class="paginacionForo">1</a>
             <a href="" class="paginacionForo">2</a>
             <a href="" class="paginacionForo">3</a>
             <a href="" class="paginacionForo">...</a>
         </nav>
+        <button id="botonNuevoHilo" class="bordeRedondeado">Nuevo Hilo</button>
     </main>
-    <footer>
+    <footer id="footerForoCategoria">
         <nav>
             <ul id="footer">
                 <li> <a href="" class="botonFooter">Política Privacidad</a></li>
