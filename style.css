@@ -103,6 +103,70 @@ nav.breadCrumb [aria-current="page"] {
     color: #000;
     font-weight: 700;
 }
+                                        /*************** pagina de Index ***************/
+
+#bodyIndex{
+    display:grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 60% 30px;
+    height: 100vh;
+    width: 100vw;
+    color: var(--textcolor);
+    background: linear-gradient(180deg, #03312E 0%, #02C3BD 100%);
+}
+
+#headerIndex{
+    display: flex;
+    justify-items: flex-end;
+    flex-direction: column;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+#mainIndex{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    color: var(--textcolor);
+}
+
+#descripcionPrincipal{
+    margin-top: 20px;
+}
+
+#seccionForoIndex{
+    background: linear-gradient(180deg, #E7815F 0%, #FBD7B1 100%);
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    color: var(--textcolor);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 75px;
+    text-align: center;
+}
+
+#seccionForoIndex a {
+    color: black;
+}
+
+#seccionIntercambiosIndex{
+    background: linear-gradient(180deg, #02C3BD 0%, rgba(2, 195, 189, 0.3) 100%);
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 75px;
+    text-align: center;
+}
+#seccionIntercambiosIndex a {
+    color: black;
+}
+
                                         /*************** pagina de Foro ***************/
 #bodyForo{
     display: grid;
@@ -296,6 +360,7 @@ nav.breadCrumb [aria-current="page"] {
 #breadCrumbForoCategoria{
     justify-self: flex-start;
     margin-left: 50px;
+    margin-bottom: 20px;
     align-self: center;
 }
 
@@ -659,6 +724,10 @@ footer {
 }
 #footer > li:nth-child(3) {
     margin-left: auto;
+}
+
+.botonFooter:Hover{
+    text-decoration: underline;
 }
                                         /*************** barra Busqueda ***************/
 #barraBusqueda{
