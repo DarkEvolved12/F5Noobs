@@ -422,17 +422,27 @@ nav.breadCrumb [aria-current="page"] {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: grid;
-    padding: 20px;
     grid-template-columns: 100%;
-    grid-template-rows: 60px 30px 10% auto;
+    grid-template-rows: 100px 10% auto;
     background: #FBD7B1;
 }
+#asideIntercambiosTop{
+    background-color: var(--secondaryDark);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
 #barraBusqueda {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
     background-color: #FFFFFC;
     display: flex;
-    align-self: start;
+    align-self: flex-end;
+    width: 350px;
 }
 #botonOfrecerProducto {
     display: flex;
@@ -444,11 +454,11 @@ nav.breadCrumb [aria-current="page"] {
     background-color: #500101;
     justify-self: end;
     text-underline-position: unset;
-    align-self: start;
+    align-self: flex-end;
 }
 #ultimosIntercambios {
     grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    grid-row: 2 / 3;
     display: flex;
     align-self: end;
     justify-content: center;
@@ -456,7 +466,7 @@ nav.breadCrumb [aria-current="page"] {
 }
 .intercambiosRecientes {
     grid-column: 1/2;
-    grid-row: 4/5;
+    grid-row: 3/4;
     display: grid;
     grid-template-columns: 45% 10% 45%;
     grid-template-rows: repeat( 3, auto);
