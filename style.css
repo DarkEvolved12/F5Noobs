@@ -191,8 +191,9 @@ nav.breadCrumb [aria-current="page"] {
     grid-template-columns: auto;
     grid-template-rows: 100px 720px;
 }
-#tituloIntercambios{
+.tituloIntercambios {
     background: linear-gradient(180deg, #02C3BD 0%, rgba(2, 195, 189, 0) 100%);
+    align-items: center;
 }
 .intercambiosDisponibles {
     display: grid;
@@ -214,6 +215,7 @@ nav.breadCrumb [aria-current="page"] {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     display: grid;
+    padding: 20px;
     grid-template-columns: 100%;
     grid-template-rows: 60px 30px 10% auto;
     background: #FBD7B1;
@@ -223,7 +225,7 @@ nav.breadCrumb [aria-current="page"] {
     grid-row: 1 / 2;
     background-color: #FFFFFC;
     display: flex;
-    align-self: center;
+    align-self: start;
 }
 #botonOfrecerProducto {
     display: flex;
@@ -235,12 +237,13 @@ nav.breadCrumb [aria-current="page"] {
     background-color: #500101;
     justify-self: end;
     text-underline-position: unset;
+    align-self: start;
 }
 #ultimosIntercambios {
     grid-column: 1 / 2;
     grid-row: 3 / 4;
     display: flex;
-    align-content: center;
+    align-self: end;
     justify-content: center;
     background-color: var(--secondaryDark);
 }
@@ -252,7 +255,6 @@ nav.breadCrumb [aria-current="page"] {
     grid-template-rows: repeat( 3, auto);
     align-items: center;
     justify-items: center;
-    align-content: start;
     background-color: var(--secondaryDark);
 }
                                         /* items de intercambio */
@@ -265,8 +267,8 @@ nav.breadCrumb [aria-current="page"] {
     width: 200px;
 }
 .tablaIntercambiada {
-    height: 150px;
-    width: 150px;
+    height: 140px;
+    width: 140px;
 }
 .itemIntercambiado {
     border: 1px solid #03312E;
