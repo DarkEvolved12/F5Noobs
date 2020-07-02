@@ -303,7 +303,35 @@ nav.breadCrumb [aria-current="page"] {
     color: var(--principalFive);
 }
 
-                                        /*************** pagina de Foro-Hilo ***************/
+                                           /*************** pagina de Foro-Hilo ***************/
+#bodyForoHilo{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px 100% 30px;
+
+}
+#mainForoHilo{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 20% 70% 10%;
+
+}
+#subtituloHilo{
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+}
+#displayPosts{
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+}
+#mainForoHilo #barraBusqueda {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+#botonResponderHilo{
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
 .postForo{
     background-color: var(--principalTwo);
     color: var(--textcolor);
