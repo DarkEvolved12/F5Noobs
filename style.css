@@ -263,22 +263,26 @@ nav.breadCrumb [aria-current="page"] {
     grid-row: 2 / 3;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 60px 30px 10% 90%;
-    background: linear-gradient(180deg, #E7815F 0%, #FBD7B1 100%);
+    grid-template-rows: 60px 30px 10% auto;
+    background: #FBD7B1;
 }
 #barraBusqueda {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    background-color: #FFFFFC;
     display: flex;
-    align-content: center;
-    justify-content: end;
+    align-self: center;
 }
 #botonOfrecerProducto {
     display: flex;
     border: solid 1px black;
-    height: 25px;
-    text-indent: 10px;
-    color: black;
+    height: 30px;
+    width: 170px;
+    text-indent: 40px;
+    color: white;
+    background-color: #500101;
+    justify-self: end;
+    text-underline-position: unset;
 }
 #ultimosIntercambios {
     grid-column: 1 / 2;
@@ -286,6 +290,7 @@ nav.breadCrumb [aria-current="page"] {
     display: flex;
     align-content: center;
     justify-content: center;
+    background-color: var(--secondaryDark);
 }
 .intercambiosRecientes {
     grid-column: 1/2;
@@ -296,6 +301,7 @@ nav.breadCrumb [aria-current="page"] {
     align-items: center;
     justify-items: center;
     align-content: start;
+    background-color: var(--secondaryDark);
 }
                                         /* items de intercambio */
 .itemIntercambio {
