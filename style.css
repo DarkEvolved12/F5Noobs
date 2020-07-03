@@ -104,7 +104,21 @@ nav.breadCrumb [aria-current="page"] {
     font-weight: 700;
 }
                                         /*************** pagina de Index ***************/
-
+.circulo {
+	width: 30rem;
+	height: 30rem;
+    border-radius: 50%;
+    display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: center;
+    margin: 0px 50px;
+    padding: 3%;
+    background: #FBD7B1;
+}
+.circulo>h2 {
+	color: black;
+}
 #bodyIndex{
     display:grid;
     grid-template-columns: 100%;
