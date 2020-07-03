@@ -23,9 +23,11 @@
     <main id="mainForoHilo">
         <section id="subtituloHilo">
             <h3>Nombre Hilo</h3>
-            <p>Info Hilo (fechas/respuestas)</p>
+            <p class="textoPequeño">Info Hilo (fechas/respuestas)</p>
         </section>
-        <input type="text" placeholder="Búsqueda..." id="barraBusqueda">
+        <section id="contenedorBarraBusqueda">
+            <input type="text" placeholder="Búsqueda..." id="barraBusqueda" class="bordeRedondeado">
+        </section>
         <section id="displayPosts" class="bordeRedondeado">
             <article class="postForo textoPequeño">
                 <img src="./images/fotoPerfil.jpg" alt="Foto Perfil" class="fotoPerfil bordeRedondeado">
@@ -48,32 +50,25 @@
                 <p>Cuerpo Mensaje</p>
                 <img src="./images/stars-24183_640.png" alt="Reputación del posteador" class="displayReputacion">
             </article>
-            <article class="postForo textoPequeño">
-                <img src="./images/fotoPerfil.jpg" alt="Foto Perfil" class="fotoPerfil bordeRedondeado">
-                <p>Nombre Usuario</p>
-                <p>Info Post/Usuario</p>
-                <p>Cuerpo Mensaje</p>
-                <img src="./images/stars-24183_640.png" alt="Reputación del posteador" class="displayReputacion">
-            </article>
         </section>
-        <nav aria-label="breadcrumb" class="breadCrumb">
+        <nav aria-label="breadcrumb" class="breadCrumb bordeRedondeado textoPequeño">
             <ol>
                 <li><a href="foro.html">Foro</a></li>
                 <li><a href="./foro_categoria.html">Categoría</a></li>
                 <li><a href="././foro_hilo.html" aria-current="page">Hilo</a></li>
             </ol>
         </nav>
-        <nav>
+        <nav id="paginacionForoHilo" class="textoGrande">
             <a href="" class="paginacionForo">1</a>
             <a href="" class="paginacionForo">2</a>
             <a href="" class="paginacionForo">3</a>
             <a href="" class="paginacionForo">...</a>
         </nav>
-        <button id="responderHilo">Responder</button>
+        <button id="botonResponderHilo" class="bordeRedondeado">Responder</button>
     </main>
     <footer id="footerForoHilo">
         <nav>
-            <ul id="footer">
+            <ul id="footer" class="textoPequeño">
                 <li> <a href="" class="botonFooter">Política Privacidad</a></li>
                 <li> <a href="" class="botonFooter">Redes Sociales</a></li>
                 <li> <a href="" class="botonFooter">Contacto</a></li>
