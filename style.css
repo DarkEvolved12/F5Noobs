@@ -320,7 +320,7 @@ nav.breadCrumb [aria-current="page"] {
     grid-column: 1 / 3;
     grid-row: 1 / 2;
 }
-#displayPosts{
+#displayPost{
     grid-column: 1 / 4;
     grid-row: 2 / 3;
 }
