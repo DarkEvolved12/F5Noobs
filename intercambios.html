@@ -65,7 +65,7 @@
             <input type="text" placeholder="Búsqueda..." id="barraBusqueda" class="bordeRedondeado textoPequeño">
         </section>
         <section id="asidePart2">
-            <a type="button" id="botonOfrecerProducto" href="" class="bordeRedondeado textoPequeño">Ofrecer Item</a>
+            <a type="button" id="botonOfrecerProducto" href="#" class="bordeRedondeado textoPequeño">Ofrecer Item</a>
         </section>
         <section class="ultimosIntercambios">
             <ul id="espacioFueraDeLaCaja" class="bordeRedondeado">
@@ -115,6 +115,21 @@
     <a type="button" id="iniciarSesion" href="" class="bordeRedondeado textoPequeño">Iniciar Sesion</a>
     <p>Ó</p>
     <a type="button" id="crearCuenta" href="" class="bordeRedondeado textoPequeño">Crear Cuenta</a>
+</div>
+<div class="popUpOfrecerProducto" id="popUpOfrecerProducto">
+    <form id="formPopUpOfrecerProducto" action="" method="post">
+        <a type="button" id="botonCerrarOfrecerItem" href="#" class="textoPequeño">x</a>
+        <div class="fotoProducto"><a>producto</a></div>
+        <label for="">Nombre:</label>
+        <input class="bordeRedondeado textoPequeño" type="text" name="nombre">
+        <label for="">Fecha:</label>
+        <input class="bordeRedondeado textoPequeño" type="text" name="Fecha">
+        <label for="">Localización:</label>
+        <input class="bordeRedondeado textoPequeño" type="text" name="Localización">
+        <label class="descrip" for="">Descripción:</label>
+        <input  id="inputDescripción" class="bordeRedondeado textoPequeño" type="text" name="descripción">
+        <a href="#" class="botonPublicarProducto">Ofrecer Producto</a>  
+    </form>
 </div>
 <script src="popUp.js"></script>
 </html> 

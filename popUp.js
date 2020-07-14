@@ -8,3 +8,14 @@ login.addEventListener('click',function(){
 botonCerrarLogin.addEventListener('click',function(){
     popUp.classList.remove('active');
 });
+                                       /*************** PopUp OfrecerItem ***************/
+var botonOfrecerProducto=document.getElementById('botonOfrecerProducto') 
+    popUpOfrecerProducto=document.getElementById('popUpOfrecerProducto')
+    botonCerrarOfrecerItem=document.getElementById('botonCerrarOfrecerItem')
+    
+botonOfrecerProducto.addEventListener('click',function(){
+    popUpOfrecerProducto.classList.add('active');
+});
+botonCerrarOfrecerItem.addEventListener('click',function(){
+    popUpOfrecerProducto.classList.remove('active');
+}); 

@@ -1,22 +1,25 @@
 * {
     box-sizing: border-box;
   }
-  body {
-    background: #fff;
+  .popUpOfrecerProducto {
     color: white;
     font-family: sans-serif;
-  }
-  .cuadro{
-    background:#333;
-    border:2px solid #333;
-    border-radius: 30px;
-    height:100px;
-    margin-bottom:20px;
-    width:100px;
-    text-align: center;
-   
+    background: rgb(255, 255, 255);
 }
-   form {
+.fotoProducto {
+  padding-top: 50px;
+  height: 125px;
+  width: 125px;
+  text-align: center;
+  background: rgb(51, 51, 51);
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(51, 51, 51);
+  border-image: initial;
+  border-radius: 30px;
+  margin: 20px 125px;
+}
+ form {
     width: 400px;
     height: 600px;
     margin: auto;
@@ -27,11 +30,11 @@
     border: 0,5px solid black;
     border-radius: 40px;
   }
-  h1 {
+  a {
     text-align: center;
     margin-bottom: 20px;
-    margin-top: 0;
-  }
+    margin-top: 0px;
+}
   label, input,select {
     width: 100%;
     display: block;
@@ -43,38 +46,16 @@
     margin-bottom: 20px;
     border-radius: 40px;
   }
-  .error {  
-    color: red;
-  }
-  .boton{
-    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-          text-align:center;
-          text-decoration: none;
-    font-family: 'Helvetica Neue', Helvetica, sans-serif;
-    
-            color: #FFF;
-            background: #7F8C8D;
-            padding: 7px 20px;
-            white-space: nowrap;
-            -webkit-border-radius: 5px;
-            -moz-border-radius: 5px;
-            border-radius: 100px;
-            
-            margin: 5px 100px;
-            -webkit-transition: all 0.2s ease-in-out;
-            -ms-transition: all 0.2s ease-in-out;
-            -moz-transition: all 0.2s ease-in-out;
-            -o-transition: all 0.2s ease-in-out;
-            transition: all 0.2s ease-in-out;
-    }
-    .verde{
-    background: #29553c;
-    box-shadow: 0px 4px 0px 0px #185230;
-  }
-  .verde:hover{
-    background: #172b1f;
-  }
-  .verde:active{
-    box-shadow: 0px 2px 0px 0px #15271c;
-  }
  
+.botonPublicarProducto {
+    text-shadow: rgba(0, 0, 0, 0.2) 0px 1px;
+    text-align: center;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+    text-decoration: none;
+    background: rgb(46, 107, 54);
+    padding: 7px 20px;
+    border-radius: 100px;
+    margin: 5px 100px;
+}
