@@ -844,3 +844,61 @@ footer {
     display: flex;
     margin: 10px;
 }
+
+                                      /************** cuadro-fitros-pagina intercambios ***************/
+
+.filtros {
+    background-color: var(--secondaryLight);
+    height: 50em;
+}
+#inputForm {
+    background-color: var(--textcolor);
+    border: solid 1px black;
+}
+#buttonFiltro {
+    background-color: var(--secondaryDarker);
+    height: 2em;
+    width: 10em;
+}
+#buttonFiltro a {
+    color: var(--textcolor);
+}
+
+                                     /***************cuadro-filtros-pagina intercambios*****************/
+
+#formularioFiltros {
+    display: grid;
+    /* justify-items: center; */
+    padding: 1em;
+}
+#titleFiltros {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+#buttonDropbtn {
+    display: flex;
+    padding: 0.6em;
+    justify-content: center;
+}
+.dropbtn {
+    background-color: var(--secondaryDarker);
+    height: 2em;
+    width: 10em;
+    color: white;
+}
+#buttonFiltroContainer {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+}
+#inputForm {
+    padding-left: 0.4em;
+}
+#Dropdown {
+    
+}
+
+#testDropdownDesplegable{
+    display: none;
+}
