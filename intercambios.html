@@ -5,24 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href= "https://use.fontawesone.comn/releases/v5.5.0/css/all.css">
     <title>Intercambios</title>
 </head>
-
 <body id="bodyIntercambio">
-    <header class="headerIntercambios">
+    <header class="headerIntercambios"> 
         <nav>
             <ul id="barraNavegacion">
                 <li><a class="botonNavegacion textoGrande" href="index.html">HOME</a></li>
                 <li><a class="botonNavegacion textoGrande" href="foro.html">FORO</a></li>
                 <li><a class="botonNavegacion textoGrande" href="intercambios.html">INTERCAMBIOS</a></li>
                 <li><a class="botonNavegacion textoGrande" href="perfil.html">NOMBRE USUARIO</a></li>
-                <li><a class="botonNavegacion textoGrande" href="login.html">LOGIN/REGISTRO</a></li>
+                <button id="login" class="login botonNavegacion textoGrande">LOGIN/REGISTRO</button>>
             </ul>
         </nav>
     </header>
     <main class="mainIntercambios">
         <section class="tituloIntercambios">
-            <h3 id="tituloIntercambios">Productos en Oferta</h3>
+            <h3 id="tituloIntercambios">Productos en Oferta</h3>.
         </section>    
         <section class="intercambiosDisponibles">
             <article class="itemIntercambio bordeRedondeado">
@@ -65,7 +65,7 @@
             <input type="text" placeholder="Búsqueda..." id="barraBusqueda" class="bordeRedondeado textoPequeño">
         </section>
         <section id="asidePart2">
-            <a type="button" id="botonOfrecerProducto" href="" class="bordeRedondeado textoPequeño">Ofrecer Item</a>
+            <a type="button" id="botonOfrecerProducto" href="#" class="bordeRedondeado textoPequeño">Ofrecer Item</a>
         </section>
         <section class="ultimosIntercambios">
             <ul id="espacioFueraDeLaCaja" class="bordeRedondeado">
@@ -102,5 +102,34 @@
         </nav>
     </footer>
 </body>
-
-</html>
+<div class="popUp bordeRedondeado" id="popUp">
+    <a type="button" id="botonCerrarLogin" href="#" class="textoPequeño">x</a>
+    <a type="button" id="botonContinuarConGoogle" href="" class="bordeRedondeado textoPequeño">Continuar Con Google</a>
+    <a type="button" id="botonContinuarConFacebook" href="" class="bordeRedondeado textoPequeño">Continuar con Facebook</a>
+    <form action="">
+        <div class= inputsDeRegistro>
+            <input type="text" placeholder="NOMBRE" id="nombreDeUsuario" class="bordeRedondeado textoPequeño">
+            <input type="text" placeholder="CONTRASEÑA" id="contraseñaDeUsuario" class="bordeRedondeado textoPequeño">
+        </div>
+    </form>
+    <a type="button" id="iniciarSesion" href="" class="bordeRedondeado textoPequeño">Iniciar Sesion</a>
+    <p>Ó</p>
+    <a type="button" id="crearCuenta" href="" class="bordeRedondeado textoPequeño">Crear Cuenta</a>
+</div>
+<div class="popUpOfrecerProducto" id="popUpOfrecerProducto">
+    <form id="formPopUpOfrecerProducto" action="" method="post">
+        <a type="button" id="botonCerrarOfrecerItem" href="#" class="textoPequeño">x</a>
+        <div class="fotoProducto"><a>producto</a></div>
+        <label for="">Nombre:</label>
+        <input class="bordeRedondeado textoPequeño" type="text" name="nombre">
+        <label for="">Fecha:</label>
+        <input class="bordeRedondeado textoPequeño" type="text" name="Fecha">
+        <label for="">Localización:</label>
+        <input class="bordeRedondeado textoPequeño" type="text" name="Localización">
+        <label class="descrip" for="">Descripción:</label>
+        <input  id="inputDescripción" class="bordeRedondeado textoPequeño" type="text" name="descripción">
+        <a href="#" class="botonPublicarProducto">Ofrecer Producto</a>  
+    </form>
+</div>
+<script src="popUp.js"></script>
+</html> 
