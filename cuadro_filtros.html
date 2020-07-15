@@ -65,39 +65,56 @@
             <input type="text" placeholder="Búsqueda..." id="barraBusqueda" class="bordeRedondeado textoPequeño">
         </section>
         <section class="filtros">
+            <h4 id="titleFiltros" class="subtitulo">Filtros</h4>
             <form action="formulario" class="textoPequeño" id="formularioFiltros">
-                <h4 id="titleFiltros">Filtros</h4>
                 <label for="nombreItem" id="label">Nombre item</label>
                 <input type="text" placeholder="Nombre item" class="bordeRedondeado textoPequeño" id="inputForm">
-                <div id="buttonDropbtn">
-                    <button onclick="myFunction()" class="dropbtn bordeRedondeado">Fecha</button>
+                <!-- <div id="buttonDropbtn">
+                    <button id="dropbtn" class="dropbtn bordeRedondeado">Fecha</button>
                 </div>
                 <div id="Dropdown">
                   <a href="#">Link 1</a>
                   <a href="#">Link 2</a>
                   <a href="#">Link 3</a>
-                </div>
-                <h3 id="testDropdownBoton">titulo</h3>
-                <article id="testDropdownDesplegable">kljhfkqhfkljhsdsdqkjshd qshdlqkshjdlqkjshdq qksljhdqlksjhdqlksjdh qlsjdhqlksjdhqksjhdqlksjh</article>
-                <div id="buttonDropbtn">
+                </div> -->
+                <!-- <div id="buttonDropbtn">
                     <button onclick="myFunction()" class="dropbtn bordeRedondeado">Localizacion</button>
                 </div>
                 <div id="Dropdown">
                   <a href="#">Link 1</a>
                   <a href="#">Link 2</a>
                   <a href="#">Link 3</a>
-                </div>
-                    <label for="otrosFiltros">Otros filtros</label>
-                    <input type="text" placeholder="Otros Filtros" class="bordeRedondeado textoPequeño" id="inputForm">
-                    <label for="otrosFiltros">Otros filtros</label>
-                    <input type="text" placeholder="Otros Filtros" class="bordeRedondeado textoPequeño" id="inputForm">
-                <div id="buttonFiltroContainer">
-                    <button id="buttonFiltro" class="bordeRedondeado"><a href="">Buscar otra vez</a></button>
-                </div>
+                </div> -->
+                <form action="formulario" class="textoPequeño" id="formularioFiltros">
+                    <select name=“selectMenu“ class="bordeRedondeado" id="selectMenu">
+                      <option value=“fecha“>Fecha</option>
+                      <option value=“fecha“>Fecha</option>
+                      <option value=“fecha“>Fecha</option>
+                      <option value=“fecha“>Fecha</option>
+                    </select>
                 </form>
+                <form action="formulario" class="textoPequeño" id="formularioFiltros">
+                    <select name=“selectMenu“ class="bordeRedondeado" id="selectMenu">
+                      <option value=““localizacion““>Localizacion</option>
+                      <option value=““localizacion““>Localizacion</option>
+                      <option value=““localizacion““>Localizacion</option>
+                      <option value=““localizacion““>Localizacion</option>
+                    </select>
+                  </form>
+                <form action="formulario" class="textoPequeño" id="formularioFiltros">
+                    <label for="otrosFiltros">Otros filtros</label>
+                    <input type="text" placeholder="Otros Filtros" class="bordeRedondeado textoPequeño" id="inputForm">
+                    <label for="otrosFiltros">Otros filtros</label>
+                    <input type="text" placeholder="Otros Filtros" class="bordeRedondeado textoPequeño" id="inputForm">
+                    <div id="buttonFiltroContainer">
+                        <button id="buttonFiltro" class="bordeRedondeado textoPequeño"><a href="">Buscar otra vez</a></button>
+                    </div>
+                </form>
+                
+            </form>
         </section>
     </aside>
-    <script src="javascript.js"></script>
+    <!-- <script src="javascript.js"></script> -->
     <footer>
         <nav>
             <ul id="footer" class="textoPequeño">

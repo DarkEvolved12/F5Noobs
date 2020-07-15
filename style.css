@@ -564,6 +564,7 @@ nav.breadCrumb [aria-current="page"] {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding: 1.3em;
 }
 #asidePart2 {
     background: #FBD7B1;
@@ -877,33 +878,45 @@ footer {
     display: grid;
     /* justify-items: center; */
     padding: 1em;
+    width: 19em;
+}
+.filtros {
+    padding: 1.3em;
+    height: 46em;
 }
 #titleFiltros {
     display: flex;
     justify-content: center;
-    padding: 1em;
+    font-size: 30px;
 }
 #buttonDropbtn {
     display: flex;
     padding: 0.6em;
     justify-content: center;
 }
-.dropbtn {
+#selectMenu {
     background-color: var(--secondaryDarker);
-    height: 2em;
-    width: 10em;
+    height: 1.5em;
+    width: 14.3em;
     color: white;
+    font-size: 1.2em;
+    font-family: corbel;
+    border: solid 1px black;
+    /* padding: 1em; */
 }
 #buttonFiltroContainer {
     display: flex;
     justify-content: center;
     padding: 1em;
 }
+#buttonFiltro {
+    border: solid 1px black;
+}
 #inputForm {
     padding-left: 0.4em;
 }
 #Dropdown {
-    
+    display: none;
 }
 
 #testDropdownDesplegable{

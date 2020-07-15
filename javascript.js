@@ -1,7 +1,8 @@
 
 
-    document.getElementById("testDropdownBoton").addEventListener('click', FuncionTest);
+  document.getElementById("dropbtn").addEventListener('click', myFunction);
 
-  function FuncionTest(){
-    document.getElementById("testDropdownDesplegable").style.display = 'block';
+  function myFunction(){
+  document.getElementById("Dropdown").style.display = 'block';
   }
+
