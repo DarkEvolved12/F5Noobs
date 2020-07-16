@@ -787,6 +787,44 @@ nav.breadCrumb [aria-current="page"] {
 #valoracionPerfilUsuario{
     width: 80px;
 }
+#gestionIntercambios{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    padding-bottom: 80px;
+}
+#tituloDelCuadro {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    text-align: center;
+}
+.listaGestionUltimosIntercambios{
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px;
+}
+.listaGestionUltimosIntercambios1{
+    display: flex;
+    justify-content: flex-start;
+    padding: 25px;
+}
+.ultimoIntercambioRealizadoPerfil{
+    display: flex;
+}
+.ultimoIntercambioRealizadoPerfil1{
+    display: flex;
+}
+.tablaperfil{
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    justify-self: center;
+}
+.flechaDerechaPerfil{
+    font-size: 50px;
+    text-justify: center;
+}
                                         /*************** footer ***************/
 footer {
     grid-column: 1 / 3;
