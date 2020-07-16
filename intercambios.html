@@ -23,33 +23,33 @@
     <main class="mainIntercambios">
         <section class="tituloIntercambios">
             <h3 id="tituloIntercambios">Productos en Oferta</h3>.
-        </section>    
+        </section>
         <section class="intercambiosDisponibles">
-            <article class="itemIntercambio bordeRedondeado">
+            <article id="producto"class="itemIntercambio bordeRedondeado producto">
                 <img class="tabla" src="images/tabla surf.jpg" alt="">
             </article>
-            <article class="itemIntercambio bordeRedondeado">
+            <article id="producto"class="itemIntercambio bordeRedondeado producto">
                 <img class="tabla" src="images/tabla surf.jpg" alt="">
             </article>
-            <article class="itemIntercambio bordeRedondeado">
+            <article id="producto"class="itemIntercambio bordeRedondeado producto">
                 <img class="tabla" src="images/tabla surf.jpg" alt="">
             </article>
-            <article class="itemIntercambio bordeRedondeado">
+            <article id="producto"class="itemIntercambio bordeRedondeado producto">
                 <img class="tabla" src="images/tabla surf.jpg" alt="">
             </article>
-            <article class="itemIntercambio bordeRedondeado">
+            <article id="producto"class="itemIntercambio bordeRedondeado producto">
                 <img class="tabla" src="images/tabla surf.jpg" alt="">
             </article>
-            <article class="itemIntercambio bordeRedondeado">
+            <article id="producto"class="itemIntercambio bordeRedondeado producto">
                 <img class="tabla" src="images/tabla surf.jpg" alt="">
             </article>
-            <article class="itemIntercambio bordeRedondeado">
+            <article id="producto"class="itemIntercambio bordeRedondeado producto">
                 <img class="tabla" src="images/tabla surf.jpg" alt="">
             </article>
-            <article class="itemIntercambio bordeRedondeado">
+            <article id="producto"class="itemIntercambio bordeRedondeado producto">
                 <img class="tabla" src="images/tabla surf.jpg" alt="">
             </article>
-            <article class="itemIntercambio bordeRedondeado">
+            <article id="producto"class="itemIntercambio bordeRedondeado producto">
                 <img class="tabla" src="images/tabla surf.jpg" alt="">
             </article>
             <nav aria-label="pages" class="paginacion">
@@ -59,28 +59,6 @@
                 <li><a href="" class="paginacion">...</a></li>
             </nav>
         </section>
-        <div id="popUpDescripcion" class="bordeRedondeado">
-            <figure>
-                <img id="imgProducto" src="images/producto.png" alt="producto">
-            </figure>
-            <form action="formulario" id="formPopUpDescripcion">
-                <input type="text" placeholder="Nombre producto">
-                <input type="text" placeholder="Descripción">
-                <input type="text" placeholder="Fecha">
-                <input type="text" placeholder="Localización">
-            </form>
-            <form action="formulario" class="textoPequeño" id="formularioFiltros">
-                <select name=“selectMenuItem“ class="bordeRedondeado" id="selectMenuItem">
-                  <option value=“fecha“>Seleccionar item publicado</option>
-                  <option value=“fecha“>Item 1</option>
-                  <option value=“fecha“>Item 2</option>
-                  <option value=“fecha“>Item 3</option>
-                </select>
-            </form>
-            <p class= "textoPequeño">Ò</p>
-            <button class="botonOfrecerItem bordeRedondeado textoGrande"><a href="" class="aOfrecer">Subir item para intercambiar</a></button>
-            <button class="botonOfrecerItem bordeRedondeado textoGrande"><a href="" class="aOfrecer">Solicitar intercambio</a></button>
-        </div>
     </main>
     <aside class="asideIntercambios">
         <section id="asideTop">
@@ -152,6 +130,29 @@
         <input  id="inputDescripción" class="bordeRedondeado textoPequeño" type="text" name="descripción">
         <a href="#" class="botonPublicarProducto">Ofrecer Producto</a>  
     </form>
+</div>
+<div id="popUpDescripcion" class="bordeRedondeado popUpDescripcion">
+    <a type="button" id="botonCerrarDescripcion" href="#" class="textoPequeño">x</a>
+    <figure>
+        <img id="imgProducto" src="images/producto.png" alt="producto">
+    </figure>
+    <form action="formulario" id="formPopUpDescripcion">
+        <label for="">Nombre:</label>
+        <label for="">Fecha:</label>
+        <label for="">Localización:</label>
+        <label for="">Descripción:</label>
+    </form>
+    <form action="formulario" class="textoPequeño" id="formularioSeleccionItems">
+        <select name=“selectMenuItem“ class="bordeRedondeado" id="selectMenuItem">
+          <option value=“fecha“>Seleccionar item publicado</option>
+          <option value=“fecha“>Item 1</option>
+          <option value=“fecha“>Item 2</option>
+          <option value=“fecha“>Item 3</option>
+        </select>
+    </form>
+    <p id="oDeDescripcion">Ò</p>
+    <a type="button" href="" id="botonOfrecerItem"class="bordeRedondeado textoPequeño">Subir item para Intercambiar</a>
+    <a type="button" href="" id="botonSolicitarIntercambio"class="bordeRedondeado textoPequeño">Solicitar Intercambio</a>
 </div>
 <script src="popUp.js"></script>
 </html> 

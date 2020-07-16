@@ -19,3 +19,14 @@ botonOfrecerProducto.addEventListener('click',function(){
 botonCerrarOfrecerItem.addEventListener('click',function(){
     popUpOfrecerProducto.classList.remove('active');
 }); 
+                                       /*************** PopUp DescripcionItem ***************/
+var producto=document.getElementById('producto')
+    popUpDescripcion=document.getElementById('popUpDescripcion')
+    botonCerrarDescripcion=document.getElementById('botonCerrarDescripcion')
+
+producto.addEventListener('click',function(){
+    popUpDescripcion.classList.add('active')
+})
+botonCerrarDescripcion.addEventListener('click',function(){
+    popUpDescripcion.classList.remove('active')
+})
