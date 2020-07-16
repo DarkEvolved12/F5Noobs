@@ -59,6 +59,28 @@
                 <li><a href="" class="paginacion">...</a></li>
             </nav>
         </section>
+        <div id="popUpDescripcion" class="bordeRedondeado">
+            <figure>
+                <img id="imgProducto" src="images/producto.png" alt="producto">
+            </figure>
+            <form action="formulario" id="formPopUpDescripcion">
+                <input type="text" placeholder="Nombre producto">
+                <input type="text" placeholder="Descripción">
+                <input type="text" placeholder="Fecha">
+                <input type="text" placeholder="Localización">
+            </form>
+            <form action="formulario" class="textoPequeño" id="formularioFiltros">
+                <select name=“selectMenuItem“ class="bordeRedondeado" id="selectMenuItem">
+                  <option value=“fecha“>Seleccionar item publicado</option>
+                  <option value=“fecha“>Item 1</option>
+                  <option value=“fecha“>Item 2</option>
+                  <option value=“fecha“>Item 3</option>
+                </select>
+            </form>
+            <p class= "textoPequeño">Ò</p>
+            <button class="botonOfrecerItem bordeRedondeado textoGrande"><a href="" class="aOfrecer">Subir item para intercambiar</a></button>
+            <button class="botonOfrecerItem bordeRedondeado textoGrande"><a href="" class="aOfrecer">Solicitar intercambio</a></button>
+        </div>
     </main>
     <aside class="asideIntercambios">
         <section id="asideTop">
@@ -130,28 +152,6 @@
         <input  id="inputDescripción" class="bordeRedondeado textoPequeño" type="text" name="descripción">
         <a href="#" class="botonPublicarProducto">Ofrecer Producto</a>  
     </form>
-</div>
-<div>
-    <figure>
-        <img src="" alt="producto">
-    </figure>
-    <form action="">
-        <input type="text" placeholder="Nombre producto">
-        <input type="text" placeholder="Descripción">
-        <input type="text" placeholder="Fecha">
-        <input type="text" placeholder="Localización">
-    </form>
-    <form action="formulario" class="textoPequeño" id="formularioFiltros">
-        <select name=“selectMenuItem“ class="bordeRedondeado" id="selectMenuItem">
-          <option value=“fecha“>Seleccionar item publicado</option>
-          <option value=“fecha“>Item 1</option>
-          <option value=“fecha“>Item 2</option>
-          <option value=“fecha“>Item 3</option>
-        </select>
-    </form>
-    <p class= "textoPequeño">Ò</p>
-    <button class="botonOfrecerItem bordeRedondeado textoGrande"><a href="" class="aOfrecer">Subir item para intercambiar</a></button>
-    <button class="botonOfrecerItem bordeRedondeado textoGrande"><a href="" class="aOfrecer">Solicitar intercambio</a></button>
 </div>
 <script src="popUp.js"></script>
 </html> 

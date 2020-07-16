@@ -715,6 +715,18 @@ nav.breadCrumb [aria-current="page"] {
     grid-column: 2/3;
     grid-row: 2/3;
 }
+#popUpDescripcion {
+    border: solid 1px black;
+    width: 23em;
+    text-align: center;
+}
+#imgProducto {
+    width: 10em;
+}
+#formPopUpDescripcion {
+    display: grid;
+    justify-content: center;
+}
 #selectMenuItem {
     background-color: var(--principalFive);
     color: white;
