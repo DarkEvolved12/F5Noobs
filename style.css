@@ -715,6 +715,20 @@ nav.breadCrumb [aria-current="page"] {
     grid-column: 2/3;
     grid-row: 2/3;
 }
+#selectMenuItem {
+    background-color: var(--principalFive);
+    color: white;
+}
+.botonOfrecerItem {
+    background-color: var(--principalFive);
+    color: white;
+}
+.aOfrecer {
+    color: white;
+    text-decoration: none;
+    padding: 1.3em;
+}
+
 
                                         /*************** pagina de Perfil ***************/
 #bodyPerfil{
